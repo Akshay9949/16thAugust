@@ -1,0 +1,11 @@
+input{
+    height: 2em;
+}
+label{
+    font-weight: bold;
+}
+button{
+    color: blue;
+    height: 2em;
+    
+}

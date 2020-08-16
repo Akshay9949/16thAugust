@@ -1,0 +1,21 @@
+<div>
+    <table>
+      <tr >
+        <th>Customer Name</th>
+        <th>Phone</th>
+        <th>Plan Category</th>
+        <th>Plan Name</th>
+        <th>End of plan</th>
+        <th>Details</th>
+      </tr>
+      <tr *ngFor="let i of customerslist">
+        <td>{{i.cust_name}}</td>
+        <td>{{i.phone}}</td>
+        <td>{{i.planCategory}}</td>
+        <td>{{i.planName}}</td>
+        <td>{{i.endDate}}</td>
+        <button class="btn btn-success pull-right" (click)="get(i.phone)">Get Details</button>
+      </tr>
+    </table>
+    <br>
+  </div>

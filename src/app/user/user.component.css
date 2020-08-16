@@ -1,0 +1,17 @@
+input{
+    height: 2em;
+}
+label{
+    font-weight: bold;
+}
+button{
+    color: blue;
+    height: 2.5em;
+}
+table,th,tr,td{
+    border-style: solid;
+    background-origin: padding-box;
+    text-align: center;
+    border-collapse: collapse;
+}
+

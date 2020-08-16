@@ -1,0 +1,20 @@
+{{details}}
+<div>
+    <table>
+      <tr >
+        <th>Customer Name</th>
+        <th>Phone</th>
+        <th>Gender</th>
+        <th>Email</th>
+        <th>Address</th>
+      </tr>
+      <tr *ngFor="let i of details">
+        <td>{{i.cust_name}}</td>
+        <td>{{i.phone}}</td>
+        <td>{{i.gender}}</td>
+        <td>{{i.email}}</td>
+        <td>{{i.address}}</td>
+        </tr>
+    </table>
+    <br>
+  </div>
